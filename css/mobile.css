@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial;
+	font-size: 17px;
+	background: url("../background.gif") no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+
+.content {
+	background: rgba(160, 29, 226, 0.25);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
+	height: 45%;
+}
+
+#myBtn {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	background: #000;
+	cursor: pointer;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#myBtn:hover {
+	background: #ddd;
+	color: black;
+}
+
+iframe {
+	position: fixed;
+	padding: 5px;
+	bottom: 0;
+}
